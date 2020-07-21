@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebStudio</title>
+    <link rel="stylesheet" href="./CSS/normilize.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!--Шапка сайтa--> 
+    <header class="header">
+        <div class="container">
+        <nav class="navigation">
+            <a class="logo" href="index.html"  lang="en"><span class="logo-accent"> Web </span> Studio</a>
+        <ul class="menu-nav">
+            <li class="menu-nav-item"><a href="index.html" class="link">Студия</a></li>
+            <li class="menu-nav-item"><a href="./portfolio.html" class="link">Портфолио</a></li>
+            <li class="menu-nav-item"><a href="" class="link">Контакты</a></li>
+        </ul>
+        </nav>
+        <div class="header-utilus">
+       <ul class="auth-nav">
+       <li><img src="./images/shapka/envelope.svg" alt="конверт">
+           <a class="auth-nav-item"   href="mailto:info@devstudio.com" >info@devstudio.com</a>
+        </li>
+       <li><img src="./images/shapka/smartphone.svg" alt="смартфон">
+           <a class="auth-nav-item" href="tel:+380961111111">+38 096 111 11 11</a>
+        </li>
+    </ul>
+</div>
+    </div>
+    </header>
+
+         <main>
+    <!-- Портфолио -->
+    
+     <section> 
+        <div class="container"> 
+        <h1 hidden>Примеры работ</h1>
+             <ul class="filter-list">
+             <li class="filter-list-item"><button type="button" class="modal-btn">Все</button></li>
+             <li class="filter-list-item"><button type="button" class="modal-btn">Веб-сайты</button></li>
+             <li class="filter-list-item"><button type="button" class="modal-btn">Приложения</button></li>
+             <li class="filter-list-item"><button type="button" class="modal-btn">Дизайн</button></li>
+             <li class="filter-list-item"><button type="button" class="modal-btn">Маркетинг</button></li>
+         </ul>
+         </div>
+    
+     <div class="container">
+                          <ul class="works-list">
+                     <li class="works-item">
+             <a class="works-link link" href="">
+               <img class="works-img" 
+               src="./images/projects/project_technokryak.jpg" 
+               alt="фото людей" width="370" height="294">
+               <!-- <a href="" aria-label="Ссылка на Технокряк">Технокряк</a> -->
+               <h2 class="title">Технокряк</h2>
+               <p class="text">Веб-сайт</p>
+               <p class="portfolio-item-description" hidden> Технокряк это современная площадка распространения коронавируса. 
+                   Компании используют эту платформу для цифрового шпионажа 
+                   и атак на защищённые сервера конкурентов</p>
+                </a>
+           
+           </li>
+        
+        <li class="works-item">
+                <a class="works-link link" href="">
+               <img class="works-img"  src="./images/projects/project_poster_neworlean.jpg" 
+               alt="фото баскетболисты" width="370" height="294">
+               <h2 class="title">Постер <span lang="en">Orlean vs Golden Star</span> </h2>
+               <p class="text">Дизайн</p>
+               <p class="portfolio-item-description" hidden>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                   Quia laudantium ducimus aut adipisci, id explicabo quidem quod 
+                   pariatur aperiam suscipit nostrum officia quis delectus recusandae, 
+                   maiores laborum minima esse exercitationem.</p>
+                </a>
+         
+            </li>
+      
+        
+           <li class="works-item">
+            <a class="works-link link" href="">
+               <img class="works-img"  src="./images/projects/project_restourant_seafood.jpg" 
+               alt="лого ресторана" width="370" height="294" >
+               
+               <h2 class="title">Ресторан <span lang="en">Seafood</span></h2>
+               <p class="text">Приложение</p>
+               <p class="portfolio-item-description" hidden>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                Quia laudantium ducimus aut adipisci, id explicabo quidem quod 
+                pariatur aperiam suscipit nostrum officia quis delectus recusandae, 
+                maiores laborum minima esse exercitationem.</p>
+            </a>
+           </li>
+        
+           <li class="works-item">
+            <a class="works-link link" href="">
+                <img class="works-img"  src="./images/projects/project_prime.jpg" 
+                alt="лого ресторана" width="370" height="294" >
+                <h2 class="title">Проект <span lang="en">Prime</span> </h2>
+                <p class="text">Маркетинг</p>
+                <p class="portfolio-item-description" hidden>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Quia laudantium ducimus aut adipisci, id explicabo quidem quod 
+                    pariatur aperiam suscipit nostrum officia quis delectus recusandae, 
+                    maiores laborum minima esse exercitationem.</p>
+                </a>
+           </li>
+        
+           <li class="works-item">
+            <a class="works-link link" href="">
+                <img class="works-img"  src="./images/projects/project_boxes.jpg" 
+                alt="коробки" width="370" height="294" >
+                <h2 class="title">Проект <span lang="en">Boxes</span></h2>
+                <p class="text">Приложение</p>
+                <p class="portfolio-item-description" hidden>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Quia laudantium ducimus aut adipisci, id explicabo quidem quod 
+                    pariatur aperiam suscipit nostrum officia quis delectus recusandae, 
+                    maiores laborum minima esse exercitationem.</p>
+                </a>
+           </li>
+       
+           <li class="works-item">
+            <a class="works-link link" href="">
+                <img class="works-img" src="./images/projects/project_website_inspiration.jpg"
+                 alt="монитор" width="370" height="294" >
+                <h2 class="title"> <span lang="en">Insparation has no border</span></h2>
+                <p class="text">Веб-сайт</p>
+                <p hidden>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Quia laudantium ducimus aut adipisci, id explicabo quidem quod 
+                    pariatur aperiam suscipit nostrum officia quis delectus recusandae, 
+                    maiores laborum minima esse exercitationem.</p>
+                </a>
+           </li>
+        
+           <li class="works-item">
+            <a class="works-link link" href="">
+                <img class="works-img"  src="./images/projects/project_limited_edition.jpg" 
+                alt="журнал" width="370" height="294" >
+                <h2 class="title">Издание <span lang="en">Limited Idition</span></h2>
+                <p class="text">Дизайн</p>
+                <p class="portfolio-item-description" hidden>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Quia laudantium ducimus aut adipisci, id explicabo quidem quod 
+                    pariatur aperiam suscipit nostrum officia quis delectus recusandae, 
+                    maiores laborum minima esse exercitationem.</p>
+                </a>
+           </li>
+       
+                   <li class="works-item"> 
+            <a class="works-link link" href="">
+            <img class="works-img" src="./images/projects/project_lab.jpg" 
+            alt="лого" width="370" height="294" >
+            <h2 class="title">Проект <span lang="en">LAB</span></h2>
+            <p class="text">Маркетинг</p>
+            <p class="portfolio-item-description" hidden>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                Quia laudantium ducimus aut adipisci, id explicabo quidem quod 
+                pariatur aperiam suscipit nostrum officia quis delectus recusandae, 
+                maiores laborum minima esse exercitationem.</p>
+            </a>
+           </li>
+        
+           <li class="works-item">
+            <a class="works-link link"  href="">
+            <img class="works-img" src="./images/projects/project_growing_business.jpg" 
+            alt="ноутбук" width="370" height="294" >
+            <h2 class="title"> <span lang="en">Growing Business</span></h2>
+            <p class="text">Приложение</p>
+            <p class="portfolio-item-description" hidden>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                Quia laudantium ducimus aut adipisci, id explicabo quidem quod 
+                pariatur aperiam suscipit nostrum officia quis delectus recusandae, 
+                maiores laborum minima esse exercitationem.</p>
+                </a>
+           </li>
+        
+        </ul> 
+    </div>
+
+
+</section>
+        </main>
+<!-- Футер -->
+<footer class="footer">
+    <div class="page-footer">
+          <div class="container"> 
+            <div class="address">
+                <div class="logo-footer-address">
+       <a class="logo-footer" href="index.html"  lang="en">
+             <span class="logo-accent"> Web </span> <span class="logo-footer"></span>Studio</a>   </div>
+                       
+                 <address class="address-footer">
+                     <ul class="contacts-list">
+                         <li class="adress-footer-item"><a class="contacts-text" 
+                             href="https://goo.gl/maps/NEmziegQe75sra5r5">г. Киев, пр-т Леси Украинки, 26</a> </li>
+                         <li><a class="contacts-list-item" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                         <li><a class="contacts-list-item" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                     </ul>
+                 </address>
+               
+             </div>
+             <div class="social">
+                
+                 <b class="title-social-footer">ПРИСОЕДИНЯЙТЕСЬ</b>
+            
+              <ul class="social-footer-links-list">
+                 <li class="social-footer-links-item">
+                     <img src="./images/social/instagram1.svg" alt="иконка инстаграм" width="20" height="20">
+                 <a class="social-links-item-link" href="" aria-label="Ссылка на инстаграм"></a>
+             </li>
+                 <li class="social-footer-links-item">
+                 <img src="./images/social/twitter1.svg" alt="иконка твиттер" width="20" height="20">
+                 <a class="social-links-item-link" href="" aria-label="Ссылка на твиттер"></a>
+             </li>
+                 <li class="social-footer-links-item">
+                 <img src="./images/social/facebook1.svg" alt="иконка фейсбук" width="20" height="20">
+                 <a class="social-links-item-link" href="" aria-label="Ссылка на фейсбук"></a></li>
+                 <li class="social-footer-links-item">
+                 <img src="./images/social/linkedin1.svg" alt="иконка линкедин" width="20" height="20">
+                 <a class="social-links-item-link" href="" aria-label="Ссылка на линкедин"></a></li>
+              </ul>  
+             </div>
+          </div>
+            </div>
+    
+         <!-- <div> -->
+             <!-- <b class="title-social-footer">ПОДПИШИТЕСЬ НА РАССЫЛКУ</b> -->
+
+         <!-- </div>  -->
+        
+     </footer>
+     
+
+
+</body>
+</html>
+
