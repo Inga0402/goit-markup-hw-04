@@ -97,7 +97,14 @@ display: flex;
     display: flex;
 }
 .menu-nav::before{
-   content: "";
+    width: 47px;
+    height: 4px;
+    background:var(--accent-color);
+    border-radius: 2px;
+    content: "";
+   margin-bottom: 32px;
+  
+   
 }
 
 .menu-nav-item:not(:last-child){
@@ -231,7 +238,6 @@ ul {
 /* Advantages */
 .advantages-list{
     display: flex;
-    margin-top: 294px;
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -340,7 +346,8 @@ margin-right: 30px;
 .social-links-list{
     display: flex;
     justify-content: center;
-    padding-bottom: 24px;
+    margin-top: 16px;
+    margin-bottom: 24px;
 }
 
 .social-links-item:not(:last-child){
@@ -349,21 +356,29 @@ margin-right: 10px;
 
 .social-links-item{
     display: block;
-    width: 44px;
-    height: 44px;
+    /* width: 44px;
+    height: 44px; */
     box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
-    border-radius: 0px 0px 4px 4px;
+    /* border-radius: 0px 0px 4px 4px; */
     justify-content: center;
     padding: 12px;
 }
 
-.social-links-list:hover
+/* .social-links-list:hover
 .social-links-item:focus{
     color: var(--primary-white-color);
     background-color: var(--accent-color);
+} */
+.social-links-item-svg{
+    width: 20px;
+    height: 20px; 
+    
 }
-
-
+.social-links-list:hover
+.social-links-item-svg:focus{
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
 
 /* Постоянные клиенты */
 .clients{ 
