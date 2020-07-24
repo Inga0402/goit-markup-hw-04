@@ -80,6 +80,7 @@ display: flex;
 
 .auth-nav {
     display: flex;
+   
 }
 
 .auth-nav-item{
@@ -246,6 +247,13 @@ width: 270px;
 }
 .advantages-item:not(:last-child){
 margin-right: 30px;
+}
+
+.advantages-item-svg{
+width: 70px;
+height: 70px;
+margin-bottom:25px ;
+
 }
 
 .advantages-title{
@@ -556,12 +564,11 @@ margin-right: 94px;
      .button-footer:focus 
     
      
-     .button-footer > .icon-send { 
+    .icon-send { 
          width: 24px; 
          height: 24px; 
          margin-right: 10px; 
-         background-color:red;
-         background-image: url("../images/footer/iconsend.svg");
+       
     
      } 
 
