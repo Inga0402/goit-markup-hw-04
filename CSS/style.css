@@ -86,6 +86,18 @@ display: flex;
 .auth-nav-item{
     margin-right: 30px;
 }
+.auth-nav-icon1{
+    width: 16px;
+    height: 11.2px;
+    margin-right: 2px;
+}
+.auth-nav-icon2{
+width: 10px;
+height: 14.94px;
+margin-right: 10px;
+}
+
+
 
 .navigation{
     display: flex;
@@ -345,6 +357,9 @@ justify-content: center;
 }
 .our-team-item{
     width:270px;
+    background-color: white;
+    border-radius: 0px 0px 4px 4px;
+    margin-bottom: 94px;
 }
 .our-team-item:not(:last-child){
 margin-right: 30px;
@@ -353,9 +368,13 @@ margin-right: 30px;
 
 .social-links-list{
     display: flex;
-    justify-content: center;
+    max-width: 206px;
+    margin-right: auto;
+    margin-left: auto;
     margin-top: 16px;
     margin-bottom: 24px;
+    justify-content: center;
+    
 }
 
 .social-links-item:not(:last-child){
@@ -363,27 +382,31 @@ margin-right: 10px;
 }
 
 .social-links-item{
-    display: block;
-    /* width: 44px;
-    height: 44px; */
-    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
-    /* border-radius: 0px 0px 4px 4px; */
+    display: flex;
     justify-content: center;
     padding: 12px;
+    
 }
 
-/* .social-links-list:hover
-.social-links-item:focus{
+.social-links-list:hover
+.social-links-list:focus{
     color: var(--primary-white-color);
     background-color: var(--accent-color);
-} */
+} 
+.social-list_item-link:hover
+.social-list_item-link:focus{
+    color: var(--primary-white-color);
+    background-color:var(--accent-color) ;
+}
+
+
 .social-links-item-svg{
     width: 20px;
     height: 20px; 
     
 }
 .social-links-list:hover
-.social-links-item-svg:focus{
+.social-links-list:focus{
     color: var(--primary-white-color);
     background-color: var(--accent-color);
 }
@@ -397,9 +420,7 @@ margin-right: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-   
-    
-}
+       }
 
 .clients .section-title{ 
     padding-top: 94px;
@@ -423,7 +444,9 @@ margin-right: 10px;
 .clients-item:not(:last-child){
     margin-right: 30px;
 }
+.clients-item-svg1{
 
+}
     
 /* Logo footer */
 .logo-footer{
