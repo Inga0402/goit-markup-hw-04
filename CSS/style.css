@@ -445,9 +445,35 @@ margin-right: 10px;
     margin-right: 30px;
 }
 .clients-item-svg1{
-
+    width: 44.27px;
+    height: 49.23px; 
 }
-    
+.clients-item-svg2{
+    width: 40px;
+    height: 52px;
+}
+
+.clients-item-svg3{
+    width: 41px;
+    height: 42.6px;
+}
+.clients-item-svg4{
+    width: 76.66px;
+    height: 42.02px;
+}
+ .clients-item-svg5{
+    width: 59px;
+    height: 47px;
+}
+.clients-item-svg6{
+    width: 88.48px;
+    height: 45.44px;
+}
+                            
+
+
+
+
 /* Logo footer */
 .logo-footer{
      color: var(--primary-white-color);
