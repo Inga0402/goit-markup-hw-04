@@ -130,6 +130,7 @@ html {
         font-weight: 500;
         font-size: 14px;
         line-height: 1.2;
+       
     }
 
     .menu-nav .link:hover {
@@ -153,7 +154,15 @@ html {
     .link {
         text-decoration: none;
     }
-
+    .auth-nav-item{
+        color: var(--primary-text-color);
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        margin-right: 10px;
+}
 
     /* Hero */
 
@@ -387,32 +396,14 @@ html {
     .team-social-link {
         display: flex;
         justify-content: center;
+
+    }
+    .team-social-link-picture {
+        width: 20px;
+        height: 20px;
     }
 
-    .clients-item-svg1 {
-        width: 44.27px;
-        height: 49.23px; 
-    }
-    .clients-item-svg2 {
-        width: 40px;
-        height: 52px;
-    }
-    .clients-item-svg3 {
-        width: 41px;
-        height: 42.6px;
-    }
-    .clients-item-svg4 {
-        width: 76.66px;
-        height: 42.02px;
-    }
-    .clients-item-svg5 {
-        width: 59px;
-        height: 47px;
-    }
-    .clients-item-svg6 {
-        width: 88.48px;
-        height: 45.44px;
-    }
+   
     
     .link {
         text-decoration: none;
@@ -506,11 +497,30 @@ html {
         margin-right: 30px;
     }
 
-    .team-social-link-picture {
-        width: 20px;
-        height: 20px;
+    .clients-item-svg1 {
+        width: 44.27px;
+        height: 49.23px; 
     }
-
+    .clients-item-svg2 {
+        width: 40px;
+        height: 52px;
+    }
+    .clients-item-svg3 {
+        width: 41px;
+        height: 42.6px;
+    }
+    .clients-item-svg4 {
+        width: 76.66px;
+        height: 42.02px;
+    }
+    .clients-item-svg5 {
+        width: 59px;
+        height: 47px;
+    }
+    .clients-item-svg6 {
+        width: 88.48px;
+        height: 45.44px;
+    }
                                 
 
 
@@ -751,6 +761,7 @@ html {
     .works-link:hover{
         color: var(--primary-text-color);
     }
+   
 
     .text {
         font-style: normal;
@@ -771,7 +782,11 @@ html {
         letter-spacing: 0.06em;
         font-style: normal;
         font-weight: bold;
+        margin-left: 24px;
     }
+
+   
+
 
 /* цвета web color: #2196F3; studio #000000;*/
 /* цвет основного текста #000000 */
