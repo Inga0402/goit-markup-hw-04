@@ -146,6 +146,10 @@ html {
         color: var(--accent-color);
     }
 
+    .auth-nav-list-item:hover{
+        color: var(--accent-color);
+    }
+    
     .auth-nav-link{
         padding-top: 32px;
         padding-bottom: 32px;
@@ -442,7 +446,6 @@ html {
     .clients-list {
         display: flex;
         cursor: pointer;
-        margin-bottom: 100px;
     }
 
     .clients-item:not(:last-child) {
@@ -461,7 +464,7 @@ html {
         fill: var(--accent-color);
     }
 
-    .clients-logo-link {
+    .clients-item-link {
         width: 170px;
         height: 90px;
         box-sizing: border-box;
@@ -481,7 +484,7 @@ html {
         border: 1px solid var(--accent-color);
     }
 
-    .clients-logo-link:hover, .clients-logo-link:focus {
+    .clients-item-link:hover, .clients-item-link:focus {
         fill: var(--accent-color);
         border: 1px solid var(--accent-color);
     }
