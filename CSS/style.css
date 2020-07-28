@@ -141,8 +141,12 @@ html {
         color: var(--accent-color);
     }
 
+    
   
     .auth-nav-link:hover, .auth-nav-link:focus {
+        color: var(--accent-color);
+    }
+    .auth-nav-icon:hover, .auth-nav-icon:focus{
         color: var(--accent-color);
     }
 
@@ -413,7 +417,7 @@ html {
     .link {
         text-decoration: none;
         font-style: normal;
-        display: block;
+       
     }
 
 
@@ -763,7 +767,8 @@ html {
         font-style: normal;
     }
 
-    .works-link:hover{
+    .works-link:hover
+    .works-link:focus{
         color: var(--primary-text-color);
     }
    
