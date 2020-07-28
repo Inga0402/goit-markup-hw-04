@@ -417,7 +417,6 @@ html {
     .link {
         text-decoration: none;
         font-style: normal;
-       
     }
 
 
@@ -489,13 +488,13 @@ html {
         justify-content: center;
         text-align: center;
         align-items: center;
-         fill: var(--accent-color); 
+        
     }
 
-    .clients-item:hover, .clients-item:focus {
+    /* .clients-item:hover, .clients-item:focus {
         fill: var(--accent-color);
         border: 1px solid var(--accent-color);
-    }
+    } */
 
     .clients-item-link:hover, .clients-item-link:focus {
         fill: var(--accent-color);
@@ -509,26 +508,32 @@ html {
     .clients-item-svg1 {
         width: 44.27px;
         height: 49.23px; 
+        fill:var(--primary-text-color)
     }
     .clients-item-svg2 {
         width: 40px;
         height: 52px;
+        fill:var(--primary-text-color)
     }
     .clients-item-svg3 {
         width: 41px;
         height: 42.6px;
+        fill:var(--primary-text-color)
     }
     .clients-item-svg4 {
         width: 76.66px;
         height: 42.02px;
+        fill:var(--primary-text-color)
     }
     .clients-item-svg5 {
         width: 59px;
         height: 47px;
+        fill:var(--primary-text-color)
     }
     .clients-item-svg6 {
         width: 88.48px;
         height: 45.44px;
+        fill:var(--primary-text-color)
     }
                                 
 
@@ -699,7 +704,7 @@ html {
         display:flex;
         justify-content: center;
         margin-top: 93px;
-        margin-bottom: 34px;
+       
     }
 
     .filter-list-item:not(:last-child) {
@@ -732,7 +737,7 @@ html {
         padding-left: 24px; 
         padding-bottom: 20px; 
         padding-right: 24px; 
-        border: 1px solid #eeeeee; 
+        /* border: 1px solid #eeeeee;  */
     }
 
     .works-list{
@@ -772,6 +777,11 @@ html {
         color: var(--primary-text-color);
     }
    
+    .works-item:hover,
+    .works-item:focus{
+        box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
+        0px 1px 1px rgba(0, 0, 0, 0.12);
+    }
 
     .text {
         font-style: normal;
