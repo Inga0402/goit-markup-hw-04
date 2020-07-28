@@ -64,10 +64,10 @@ html {
     }
 
     /* HEADER */
-    .header{
+    /* .header{
         padding-top: 32px;
         padding-bottom: 32px;
-    }
+    } */
 
     .header .container {
         display: flex;
@@ -173,6 +173,10 @@ html {
     }  */
 
     /* Hero */
+    h1 { 
+        margin-top: 0;
+
+    }
 
     .hero-title {
         color: var(--primary-white-color) ;
@@ -183,7 +187,6 @@ html {
         letter-spacing: 0.06em;
         text-transform: uppercase;
         text-align: center;
-        margin-bottom: 30px;
         padding-top: 200px; 
     }
 
@@ -261,7 +264,7 @@ html {
         margin-bottom: 10px;
     }
     .advantages-list .advantages-title{
-        color: var (--primary-title-color);
+        color: var(--primary-title-color);
         font-family: Roboto;
         font-weight: bold;
         font-size: 14px;
@@ -292,6 +295,7 @@ html {
         font-size: 14px;
         line-height: 1.14;
         text-align: center;
+       
     }
 
     .section-title{
@@ -300,11 +304,13 @@ html {
     
     .what-we-are-doing .what-we-are-doing-list{
         text-align: center;
+        padding: 0 15px 94px;
     }
 
     .what-we-are-doing-list{
         display: flex;
         justify-content: center;
+       
     }
 
     .what-we-are-doing-picture:not(:last-child) {
@@ -383,7 +389,7 @@ html {
         display: flex;
         justify-content: center;
         align-items: center;
-        fill: var(--accent-color);
+       
     }
 
     
@@ -392,14 +398,16 @@ html {
         fill: var(--primary-white-color);
     }
 
-    .team-social-link {
+    .team-social-link{
         display: flex;
         justify-content: center;
+        fill: var(--primary-text-color);
 
     }
     .team-social-link-picture {
         width: 20px;
         height: 20px;
+        color: var(--primary-text-color);
     }
  
     .link {
@@ -410,6 +418,7 @@ html {
 
 
     /* Постоянные клиенты */
+    
     .clients .container {
         padding-bottom: 94px;
         padding-top: 94px;
@@ -452,7 +461,7 @@ html {
         margin-right: 30px;
     }
 
-    .clients-item {
+    /* .clients-item {
         width: 170px;
         height: 90px;
         border: 1px solid #afb1b8;
@@ -462,7 +471,7 @@ html {
         justify-content: center;
         align-items: center;
         fill: var(--accent-color);
-    }
+    } */
 
     .clients-item-link {
         width: 170px;
